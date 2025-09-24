@@ -1,0 +1,160 @@
+/* Precode Settings */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    color: white;
+    font-family: helvetica;
+    overflow-x: hidden;
+    line-height: 4vh;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+
+/* Utility Classes */
+
+/* Landing Page */
+.landingPage{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(62, 53, 191);
+    background-image: url(./assets/pageOneBackground.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    height: 10vh;
+}
+
+.navigationList{
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding-top: 6vh;
+}
+
+.landingPageContent{
+    width: 100vw;
+    height: calc(100vh - 10vh);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+.landingPageContent :nth-child(3){
+    text-align: center;
+    width: 40vw;
+}
+
+.landingPage h1{
+    font-size: 3rem;
+}
+
+.landingPageButton{
+    margin-top: 7vh;
+    border: none;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: #482be7;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.landingPageButton:hover{
+    transform: scale(1.10);
+}
+
+.navItems{
+    transition: all 0.3s ease-in-out;
+}
+
+.navItems:hover{
+    transform: translateY(-5px);
+}
+
+/* Content Page */
+.contentPage{
+    height: 60vh;
+    width: 100vw;
+    background-image: url(./assets/contentPageImage.png);
+    background-size: cover;
+    overflow-x: hidden;
+    background-color:  rgb(62, 53, 191);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentPageData{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    line-height: 5vh;
+}
+
+.contentPageData h1{
+    font-size: 3rem;
+}
+
+.contentPageData :nth-child(3){
+    width: 50vw;
+}
+
+/* Features Page */
+.featuresPage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/featuresImage.png);
+    background-color: #482be7;
+}
+
+.leftData{
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightData{
+    width: 65vw;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.laptopImage{
+    transform: translateX(-70px);
+    height: 60vh;
+}
+
+.topArticle{
+    width: 40vw;
+}
+
+.leftArticle, .rightArticle{
+    width: 20vw;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vh;
+    align-items: flex-start;
+}
