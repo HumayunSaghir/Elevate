@@ -158,3 +158,44 @@ a{
     gap: 3vh;
     align-items: flex-start;
 }
+
+/* Form Section */
+.formSection{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/formBackground.png);
+    background-color: #482be7;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSideFormSection{
+    border: 2px solid red;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+    text-align: center;
+    padding-inline: 3vw;
+}
+
+.leftSideFormSection h1{
+    line-height: 2.5rem;
+}
+
+.rightForm{
+    border: 2px solid red;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    border: 2px solid red;
+    width: 30vw;
+    height: 70vh;
+}
