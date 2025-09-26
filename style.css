@@ -281,3 +281,84 @@ a{
     transform: scale(1.10);
     box-shadow: 1px 1px 2px black;
 }
+
+/* Call to action page */
+.callToActionPage{
+    line-height: 2.5rem;
+    text-align: center;
+    height: 60vh;
+    width: 100vw;
+    background-image: url(./assets/callToActionBackground.png);
+    background-color: #482be7;
+}
+
+.callToActionData{
+    padding-block: 3vh;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.getStartedButton{
+    background-color: #21c4b1;
+    width: 13vw;
+    height: 7vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-inline: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.getStartedButton:hover{
+    transform: scale(1.10);
+    border-radius: 10px;
+}
+
+.callToActionPara{
+    width: 30vw;
+    margin-inline: auto;
+    line-height: 2rem;
+}
+
+/* Show Case Section */
+.showCaseSection{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/featuresImage.png);
+    background-color: #482be7;
+}
+
+.showCaseImages{
+    width: 25vw;
+    height: 40vh;
+    transition: all 0.3s ease-in-out;
+}
+
+.showCaseImages:hover{
+    transform: scale(1.05);
+}
+
+.topShowCaseData{
+    padding: 2vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottomShowCaseData{
+    flex-wrap: wrap;
+    column-gap: 13vw;
+    row-gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.showCaseSectionButton{
+    background-color: transparent;
+    width: 9vw;
+    height: 5.5vh;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
