@@ -171,7 +171,6 @@ a{
 }
 
 .leftSideFormSection{
-    border: 2px solid red;
     width: 50vw;
     height: 100vh;
     justify-content: center;
@@ -187,7 +186,6 @@ a{
 }
 
 .rightForm{
-    border: 2px solid red;
     width: 50vw;
     height: 100vh;
     justify-content: center;
@@ -195,7 +193,42 @@ a{
 }
 
 .form{
-    border: 2px solid red;
     width: 30vw;
     height: 70vh;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 2vh;
+    border: none;
+    border-radius: 3vw;
 }
+
+.emailField, .passwordField{
+    width: 80%;
+    height: 8vh;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    text-align: center;
+}
+
+.createAccountButton, .twitterLoginButton{
+    width: 13vw;
+    height: 7vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.createAccountButton{
+    background-color: #26c9b6;
+    color: white;
+    margin-top: 2vw;
+}
+
+.twitterLoginButton{
+    background-color: #1f96de;
+    color: white;
+}
+
