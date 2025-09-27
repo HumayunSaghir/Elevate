@@ -365,8 +365,30 @@ a{
 
 /* Team Section */
 .teamSection{
-    border: 2px solid red;
     width: 100vw;
     height: 100vh;
-    background-image: url(./assets/formBackground.png);
+    background-color: #1e0e62;
+}
+
+.topTeamSectionData{
+    padding: 2vw;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.bottomTeamSectionData{
+    height: calc(100vh - 15vh);
+    padding: 2vw;
+    flex-wrap: wrap;
+    gap: 6vw;
+}
+
+.teamImage{
+    cursor: pointer;
+    width: 10vw;
+    height: 25vh;
+}
+
+.teamImage3{
+    margin-right: 40vw;
 }
