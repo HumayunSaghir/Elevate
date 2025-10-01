@@ -496,3 +496,80 @@ a{
 .contactForm:hover{
     transform: scale(1.10);
 }
+
+/* Pricing Table */
+.pricingTable{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/contactBackground.png);
+    background-color: #482be7;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topPricingTableData{
+    width: 100vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.bottomPricingTableData{
+    width: 100vw;
+    height: calc(100vh - 15vh);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2vh;
+}
+
+.priceImages{
+    width: 20vw;
+    height: 80vh;
+}
+
+.priceButton1, .priceButton2, .priceButton3{
+    margin-top: 7vh;
+    border: none;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+}
+
+.priceButton1{
+    bottom: 25px;
+    left: 310px;
+}
+
+.priceButton2{
+    bottom: 25px;
+    left: 570px;
+}
+
+.priceButton3{
+    bottom: 25px;
+    left: 840px;
+}
+
+.priceButton3:hover{
+    background-color: #482be7;
+}
+
+.priceButton2:hover{
+    background-color: #482be7;
+}
+
+.priceButton1:hover{
+    background-color: #482be7;
+}
