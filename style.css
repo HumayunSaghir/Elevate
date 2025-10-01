@@ -227,11 +227,11 @@ a{
 }
 
 .createAccountButton:hover{
-    background-color: #37d8c5;
+    background-color: #3d1bfc;
 }
 
 .createAccountButton{
-    background-color: #26c9b6;
+    background-color: #482be7;
     color: white;
     margin-top: 2vw;
     transition: all 0.3s ease-in-out;
@@ -299,7 +299,7 @@ a{
 }
 
 .getStartedButton{
-    background-color: #21c4b1;
+    background-color: #482be7;
     width: 13vw;
     height: 7vh;
     border: none;
@@ -311,6 +311,7 @@ a{
 }
 
 .getStartedButton:hover{
+    background-color: #401fff;
     transform: scale(1.10);
     border-radius: 10px;
 }
@@ -482,11 +483,11 @@ a{
 }
 
 .contactSectionButton{
-    background-color: #25dac5;
+    background-color: #482be7;
 }
 
 .contactSectionButton:hover{
-    background-color: #12d3bd;
+    background-color: #3f1dfe;
 }
 
 .contactForm{
