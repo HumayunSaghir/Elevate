@@ -99,7 +99,7 @@ a{
     background-image: url(./assets/contentPageImage.png);
     background-size: cover;
     overflow-x: hidden;
-    background-color:  rgb(62, 53, 191);
+    background-color: rgb(62, 53, 191);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -126,7 +126,7 @@ a{
     width: 100vw;
     height: 100vh;
     background-image: url(./assets/featuresImage.png);
-    background-color: #482be7;
+    background-color: rgb(62, 53, 191);
 }
 
 .leftData{
@@ -164,7 +164,7 @@ a{
     width: 100vw;
     height: 100vh;
     background-image: url(./assets/formBackground.png);
-    background-color: #482be7;
+    background-color: rgb(62, 53, 191);
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -289,7 +289,7 @@ a{
     height: 60vh;
     width: 100vw;
     background-image: url(./assets/callToActionBackground.png);
-    background-color: #482be7;
+    background-color: rgb(62, 53, 191);
 }
 
 .callToActionData{
@@ -326,7 +326,7 @@ a{
     width: 100vw;
     height: 100vh;
     background-image: url(./assets/featuresImage.png);
-    background-color: #482be7;
+    background-color: rgb(62, 53, 191);
 }
 
 .showCaseImages{
@@ -388,14 +388,14 @@ a{
 
 .teamImage{
     cursor: pointer;
-    width: 10vw;
+    width: 8vw;
     height: 25vh;
 }
 
 /* Contact Section */
 .contactSection{
     background-image: url(./assets/contactBackground.png);
-    background-color: #482be7;
+    background-color: rgb(62, 53, 191);
     width: 100vw;
     height: 100vh;
 }
@@ -503,7 +503,7 @@ a{
     width: 100vw;
     height: 100vh;
     background-image: url(./assets/contactBackground.png);
-    background-color: #482be7;
+    background-color: rgb(62, 53, 191);
     justify-content: center;
     align-items: center;
     flex-direction: column;
