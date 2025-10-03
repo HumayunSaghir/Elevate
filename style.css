@@ -574,3 +574,42 @@ a{
 .priceButton1:hover{
     background-color: #482be7;
 }
+
+/* Footer */
+.footer{
+    cursor: pointer;
+    width: 100vw;
+    height: 50vh;
+    background-color: #2f1893;
+    flex-direction: column;
+}
+
+.upperData{
+    width: 100vw;
+    height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 3vw;
+}
+
+.lowerData{
+    width: 100vw;
+    height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upperRightData{
+    justify-content: space-around;
+    gap: 1vw;
+    padding-inline: 3vw;
+}
+
+.lowerLeftData{
+    gap: 3vw;
+    padding-inline: 3vw;
+}
+
+.lowerRightData{
+    padding-inline: 3vw;
+}
